@@ -1,0 +1,83 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.header{
+    height: 90px;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7),rgba(4, 9, 30, 0.7)),url(images/my.JPG);
+    background-position: right;
+    align-content: center;
+}
+nav{
+  position: fixed;
+  top: 5%;
+  text-align: right;
+}
+
+nav img{
+    border: 2px solid white;
+    width: 150px;
+    height: 120px;
+}
+.nav-links{
+    flex: 1;
+    
+}
+.nav-links ul li{
+    position: relative;
+    display: inline;
+    padding: 20px;    
+}
+.nav-links ul li a{
+    color: burlywood;
+    text-decoration: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.nav-links ul li:hover{
+    font-size: 30px;
+    font-style: italic;
+    
+}
+#hello{
+    color: black;
+    font-size: 30px;
+    font-family: monospace;
+    margin-top: 2%;
+    margin-left: 30px;
+}
+#intro{
+    font-size: 25px;
+    margin-left: 15px;
+}
+#intro h1{
+    border-radius: 20px;
+    width: 700px;
+    height: 220px;
+    background: #fff3f3;
+}
+#intro h1:hover{
+    box-shadow: 0 0 20px 5px;
+}
+#intro h2{
+    border: 1px solid ;
+    box-sizing: content-box;    
+    width: 200px;
+    margin-top: 2%;
+    border-radius: 20px;
+}
+#projects img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 1%;
+}
+#butt{
+    cursor: pointer;
+    font-size: 15px;
+    border: 1px solid;
+    border-radius: 7px;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
